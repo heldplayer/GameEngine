@@ -1,0 +1,16 @@
+[
+    {
+        "modid" : "gameengine",
+        "name" : "GameEngine",
+        "authors": [
+            "heldplayer"
+        ],
+        "description": "",
+        "updateUrl" : "",
+        "url" : "",
+        "parent" : "",
+        "requiredMods": [
+            "SpACore"
+        ]
+    }
+]
