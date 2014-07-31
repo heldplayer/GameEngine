@@ -1,16 +1,19 @@
-[
-    {
-        "modid" : "gameengine",
-        "name" : "GameEngine",
-        "authors": [
-            "heldplayer"
-        ],
-        "description": "",
-        "updateUrl" : "",
-        "url" : "",
-        "parent" : "",
-        "requiredMods": [
-            "SpACore"
-        ]
-    }
-]
+{
+    "modListVersion" : 2,
+    "modList" : [
+            {
+            "modid" : "gameengine",
+            "name" : "GameEngine",
+            "version" : "${version}",
+            "mcversion" : "${minecraft_version}",
+            "authorlist" : [
+                "heldplayer"
+            ],
+            "url" : "",
+            "useDependencyInformation" : true,
+            "requiredMods" : [ "spacoreforge", "spacore" ],
+            "dependencies" : [ "spacore" ],
+            "dependants" : []
+        }
+    ]
+}
